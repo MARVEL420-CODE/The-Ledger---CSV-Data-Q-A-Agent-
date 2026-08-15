@@ -1,0 +1,18 @@
+{
+  "name": "csv-qa-agent-backend",
+  "version": "1.0.0",
+  "description": "CSV/Data Q&A agent backend - NL question to SQL to computed answer",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "sql.js": "^1.11.0"
+  }
+}
